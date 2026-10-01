@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore o Mundo - Contato</title>
+    <link rel="stylesheet" href="folha_estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+     <header class="cabecalho">
+        <div class="logo">
+            <i class="fa-solid fa-earth-americas"></i>
+            <span>Explore o Mundo</span>
+        </div>
+        <div class="navegacao">
+            <nav class="menu-links">
+                <a href="index.html">Inicio</a>
+                <a href="destino.html">Destinos</a>
+                <a href="sobrenos.html">Sobre</a>
+                <a href="">Contato</a>
+            </nav>
+            <div class="redes-sociais">
+                <a href="" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container1">
+        <h1 class="titulo1">Informações para Compra</h1>
+        <p class="subtitulo1">Sua próxima história começa no nosso Horizonte.</p>
+        <div class="area">
+            <form action="/informacoes" method="post" class="informacoes1">
+                <h1 class="titulo">Cadastro para compra</h1><br>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite Seu Nome" required minlength="3" maxlength="50"><br>
+
+                <label for="senha">Telefone</label>
+                <input type="password" id="senha" name="nome" placeholder="Digite seu Telefone" required minlength="8" maxlength="15"><br>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required><br>
+                
+                <label for="data-nasc">Data de Nascimento</label>
+                <input type="date" id="data-nasc" name="data-nascimento" min="1900-01-01" max="2026-12-31" required><br><br>
+                
+                <label>Serviços de Interesse</label><br>
+                <input type="checkbox" id="servico1" name="Interesse" value="serviconuvem">
+                <label for="campos do jordao">Campos do Jordão</label><br>
+
+                <input type="checkbox" id="servico2" name="Interesse" value="servicociber">
+                <label for="barcelona">Barcelona</label><br>
+
+                <input type="checkbox" id="servico3" name="Interesse" value="servicoia">
+                <label for="paris">Paris</label><br>
+
+                <input type="checkbox" id="servico3" name="Interesse" value="servicoia">
+                <label for="londres">Londres</label><br>
+
+                <input type="checkbox" id="servico3" name="Interesse" value="servicoia">
+                <label for="veneza">Veneza</label><br>
+
+                <input type="checkbox" id="servico3" name="Interesse" value="servicoia">
+                <label for="viena">Viena</label><br>
+
+                <input type="checkbox" id="servico3" name="Interesse" value="servicoia">
+                <label for="maldivas">Maldivas</label><br><br>
+                
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Li e Aceito os Termos</label><br><br>
+
+                <button type="submit" class="btn-enviar">Enviar</button>
+                <button type="reset" class="btn-limpar">Limpar Tudo</button><br><br>
+                
+                
+            </form>
+        <div class="localizacao">
+            <iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1788888176080!5m2!1spt-BR!2sbr!6m8!1m7!1sNwHMlOhFPQH_plhSgl_u5Q!2m2!1d-20.43041448489863!2d-49.97204460776263!3f34.20185265965755!4f3.6780591974833925!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>2026 Explore o Mundo - Todos os direitos reservados | 📞 Telefone / WhatsApp: (17) 1234-5678 | 🌐 Site: www.agenciaviagens.com.br |📍 @ViagenseExperiencias.com</p>
+    </footer>
+</body>
+</html>
